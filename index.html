@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font for player name -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <!-- font for score -->
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Oswald:wght@400;500;600;700&family=Qahiri&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <!-- font for current score text -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <title>Pig Game</title>
+</head>
+<body>
+    <div class="container web-box">
+        <div class="row game-box">
+            <!-- Player One -->
+            <div class="col player-1-panel">
+                <p class="player-name player-1-name">Lord</p>
+                <!-- Score Area -->
+                <div class="score-area">
+                    <span class="score">20</span>                         
+                </div>
+                <!-- Current Score -->
+                <div class="current-score">
+                    <span class="current-text">Current Score:</span><br>
+                    <span class="current-score-number">20</span>
+                </div>
+
+                
+            </div>
+            <!-- Mid Area -->
+            <div class="col mid-area">
+                <div class="inner-mid">
+                    <div class="row diceImg">
+                        <img src="images/die1.png" >
+                    </div>
+                     <!-- Button Area -->
+                    <div class="row">
+                        <div class="row  new-game-area">
+                            <button type="button" class="btn btn-dark dice-btn">New Game</button>
+                        </div>
+                        <div class="button-area">
+                            <div class="row button-area">
+                                <button type="button" class="btn btn-dark dice-btn">Dice</button>
+                                <button type="button" class="btn btn-dark hold-btn">Hold</button>   
+                            </div>
+        
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Player Two -->
+            <div class="col player-2-panel">
+                <p class="player-name player-2-name">Giant</p>
+                  <!-- Score Area -->
+                  <div class="score-area">
+                    <span class="score">20</span>                         
+                </div>
+                <!-- Current Score -->
+                <div class="current-score-2">
+                    <span class="current-text-2">Current Score:</span><br>
+                    <span class="current-score-number">20</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

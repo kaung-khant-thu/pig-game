@@ -1,0 +1,168 @@
+body{
+    background: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.game-box{
+    background: white;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row wrap;
+    -webkit-box-shadow: 7px 6px 34px 21px rgba(23,207,207,1);
+-moz-box-shadow: 7px 6px 34px 21px rgba(23,207,207,1);
+box-shadow: 7px 6px 34px 21px rgba(23,207,207,1);
+border-radius: 30px;
+}
+
+.player-1-panel{
+    justify-content: flex-start;
+    background: #df445c;
+    width:60rem; 
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px ;
+    flex-grow: 2;
+}
+
+.player-1-name{
+    color: 	#37a18e;
+}
+
+.player-2-name{
+    color:#df445c;
+}
+
+.player-2-panel{
+
+    justify-content: flex-end;
+    background: #37a18e;
+    width:60rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    flex-grow: 2;
+
+}
+
+.player-name{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.score-area{
+    text-align: center;
+}
+
+.current-score{
+    text-align: center;
+    background: #37a18e;
+    width:20rem;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom:3px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+.current-score-2{
+    text-align: center;
+    background: #df445c;
+    width:20rem;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom:3px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.current-score-number{
+    font-family: 'Qahiri', sans-serif;
+    font-size:3rem;
+
+}
+
+.current-text{
+    font-family: 'Cairo', sans-serif;
+    color: #df445c;
+    font-weight: bold;
+    font-size: 20px;
+}
+.current-text-2{
+    font-family: 'Cairo', sans-serif;
+    color: #37a18e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-area{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    width:20rem;
+    display:flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.dice-btn{
+    width:7rem;
+    background-color: #df445c;
+
+}
+
+.hold-btn{
+    width:7rem;
+    background-color:#37a18e ;
+
+}
+
+.score{
+    font-family: 'Qahiri', sans-serif;
+    font-size: 10rem;
+}
+
+.mid-area{
+    background-color: black;
+    flex-grow: 2;
+
+}
+
+.diceImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inner-mid{
+    margin-top: 60px;
+}
+
+.new-game-area{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:10px;
+    width:20rem;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
